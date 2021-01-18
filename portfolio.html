@@ -19,28 +19,40 @@
   </head>
   <body>
     <!--Шапка сайта-->
-    <header>
-      <nav>
-        <a href="./index.html"><span>Web</span>Studio</a>
-        <ul>
-          <li>
-            <a href="./index.html">Студия</a>
+    <header class="header">
+      <nav class="header-navigation">
+        <a class="logo" href="./index.html"
+          ><span class="logo-first-word">Web</span>Studio</a
+        >
+        <ul class="navigation-list">
+          <li class="navigation-list-item">
+            <a
+              class="navigation-list-link navigation-list-link-active"
+              href="./index.html"
+              >Студия</a
+            >
           </li>
           <li>
-            <a href="./portfolio.html">Портфолио</a>
+            <a class="navigation-list-link" href="./portfolio.html"
+              >Портфолио</a
+            >
           </li>
           <li>
-            <a href="#">Контакты</a>
+            <a class="navigation-list-link" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <address class="header-address">
+        <ul class="address-list">
+          <li class="address-item">
+            <a class="address-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <li class="address-item">
+            <a class="address-link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </address>
@@ -57,6 +69,49 @@
           <li><button type="button">Дизайн</button></li>
           <li><button type="button">Маркетинг</button></li>
         </ul>
+        <!-- <form action="portfolio-filter-form">
+          <label for="all-pages">
+            Все
+            <input
+              type="radio"
+              name="filter"
+              id="all-pages"
+              value="all-pages"
+              checked
+            />
+          </label>
+          <label for="web-studio-pages">
+            Веб-сайты
+            <input
+              type="radio"
+              name="filter"
+              id="web-studio-pages"
+              value="web-studio-pages"
+            />
+          </label>
+          <label for="apllications">
+            Приложения
+            <input
+              type="radio"
+              name="filter"
+              id="apllications"
+              value="apllications"
+            />
+          </label>
+          <label for="designs">
+            Дизайн
+            <input type="radio" name="filter" id="designs" value="designs" />
+          </label>
+          <label for="marketing">
+            Маркетинг
+            <input
+              type="radio"
+              name="filter"
+              id="marketing"
+              value="marketing"
+            />
+          </label>
+        </form> -->
         <h2 hidden>Примери работ</h2>
         <ul>
           <li>
@@ -166,66 +221,34 @@
             </a>
           </li>
         </ul>
-
-        <!-- <form action="portfolio-filter-form">
-          <label for="all-pages">
-            Все
-            <input
-              type="radio"
-              name="filter"
-              id="all-pages"
-              value="all-pages"
-              checked
-            />
-          </label>
-          <label for="web-studio-pages">
-            Веб-сайты
-            <input
-              type="radio"
-              name="filter"
-              id="web-studio-pages"
-              value="web-studio-pages"
-            />
-          </label>
-          <label for="apllications">
-            Приложения
-            <input
-              type="radio"
-              name="filter"
-              id="apllications"
-              value="apllications"
-            />
-          </label>
-          <label for="designs">
-            Дизайн
-            <input type="radio" name="filter" id="designs" value="designs" />
-          </label>
-          <label for="marketing">
-            Маркетинг
-            <input
-              type="radio"
-              name="filter"
-              id="marketing"
-              value="marketing"
-            />
-          </label>
-        </form> -->
       </section>
     </main>
     <!--Подвал сайта-->
-    <footer>
-      <a href="./index.html"><span>Web</span>Studio</a>
-      <address>
-        <ul>
-          <li>
-            <a href="https://goo.gl/maps/fKDju42FKTuRYaaN9" target="_blank">
+    <footer class="footer">
+      <a class="logo logo-footer" href="./index.html">
+        <span class="logo-first-word">Web</span>Studio
+      </a>
+      <address class="footer-address">
+        <ul class="footer-list">
+          <li class="footer-list-item">
+            <a
+              class="footer-list-link"
+              href="https://goo.gl/maps/fKDju42FKTuRYaaN9"
+              target="_blank"
+            >
               г. Киев, пр-т Леси Украинки, 26
             </a>
           </li>
-          <li>
-            <a href="mailto:info@example.com"> info@example.com </a>
+          <li class="footer-list-item">
+            <a class="footer-list-link" href="mailto:info@example.com">
+              info@example.com
+            </a>
           </li>
-          <li><a href="tel:+380991111111"> +38 099 111 11 11 </a></li>
+          <li class="footer-list-item">
+            <a class="footer-list-link" href="tel:+380991111111">
+              +38 099 111 11 11
+            </a>
+          </li>
         </ul>
       </address>
     </footer>
