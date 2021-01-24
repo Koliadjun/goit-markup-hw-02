@@ -19,7 +19,7 @@ a {
   text-decoration: none;
   font-style: normal;
 }
-ul {
+.list-no-style {
   list-style-type: none;
 }
 h1,
